@@ -2,8 +2,7 @@
 # >   a28413761  收集整理
 # >  更新时间  2022.05.14
 # >  */  
-hostname = m.jd.com, www.zhihu.com, 
-zhuanlan.zhihu.com, www.baidu.com, 
+hostname = m.jd.com, www.zhihu.com, zhuanlan.zhihu.com, www.baidu.com, 
 www.google.com.hk, 
 news.ssp.qq.com, r.inews.qq.com,
  magev6.if.qidian.com,
