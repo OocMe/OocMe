@@ -5,8 +5,6 @@ hostname = *.pic1cdn.cmbchina.com, *.resource.cmbchina.com,*.interface*.music.16
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/other_modul url reject
 # > 什么值得买好价详情页红包小助手
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/user_related_modul url reject
-# > 什么值得买Wiki(618晒物活动推广，将来可能不是广告)
-^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/wiki_related_modul url reject
 # > 什么值得买开屏广告
 ^https?:\/\/app-api\.smzdm\.com\/util\/loading url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
 # > 什么值得买首页广告
