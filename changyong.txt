@@ -396,4 +396,4 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 ^https?:\/\/spclient\.wg\.spotify\.com\/ads url reject-img
 
 # > WPS解锁超级V，wpsV，稻壳V
-^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/OocMe/OocMe/main/JIESUO/wps.js
