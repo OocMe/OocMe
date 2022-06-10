@@ -384,16 +384,16 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 # > keep
 ^https?:\/\/api\.gotokeep\.com\/ads url reject
 # > spotify音乐
-^https?:\/\/spclient\.wg\.spotify\.com\/.+ad_slot url reject-img
-^https?:\/\/spclient\.wg\.spotify\.com\/.+banners url reject-img
-^https?:\/\/spclient\.wg\.spotify\.com\/.+crashlytics url reject-img
-^https?:\/\/spclient\.wg\.spotify\.com\/.+doubleclick url reject-img
-^https?:\/\/spclient\.wg\.spotify\.com\/.+enabled-tracks url reject-img
-^https?:\/\/spclient\.wg\.spotify\.com\/.+event url reject-img
-^https?:\/\/spclient\.wg\.spotify\.com\/.+promoted url reject-img
-^https?:\/\/spclient\.wg\.spotify\.com\/.+sponsored url reject-img
-^https?:\/\/spclient\.wg\.spotify\.com\/ad-logic url reject-img
-^https?:\/\/spclient\.wg\.spotify\.com\/ads url reject-img
+# ^https?:\/\/spclient\.wg\.spotify\.com\/.+ad_slot url reject-img
+# ^https?:\/\/spclient\.wg\.spotify\.com\/.+banners url reject-img
+# ^https?:\/\/spclient\.wg\.spotify\.com\/.+crashlytics url reject-img
+# ^https?:\/\/spclient\.wg\.spotify\.com\/.+doubleclick url reject-img
+# ^https?:\/\/spclient\.wg\.spotify\.com\/.+enabled-tracks url reject-img
+# ^https?:\/\/spclient\.wg\.spotify\.com\/.+event url reject-img
+# ^https?:\/\/spclient\.wg\.spotify\.com\/.+promoted url reject-img
+# ^https?:\/\/spclient\.wg\.spotify\.com\/.+sponsored url reject-img
+# ^https?:\/\/spclient\.wg\.spotify\.com\/ad-logic url reject-img
+# ^https?:\/\/spclient\.wg\.spotify\.com\/ads url reject-img
 
 # > WPS解锁超级V，wpsV，稻壳V
 ^https?:\/\/account\.wps\.cn\/api\/users url script-response-body https://raw.githubusercontent.com/OocMe/OocMe/main/JIESUO/wps.js
