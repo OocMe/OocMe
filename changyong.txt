@@ -115,8 +115,8 @@ http:\/\/analytics\.163\.com\/ntes url reject
 ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads url reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/\w+\/\w+\/(sync|newRnSync|mlog) url reject
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\/c\/s\/splashSchedule url reject
-^(http:\/\/c\.tieba\.baidu\.com\/(tiebaads\/commonbatch|c\/s\/sync)|https:\/\/afd\.baidu\.com\/afd\/entry) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js
-^http:\/\/c\.tieba\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js
+^(http:\/\/c\.tieba\.baidu\.com\/(tiebaads\/commonbatch|c\/s\/sync)|https:\/\/afd\.baidu\.com\/afd\/entry) url script-response-body https://raw.githubusercontent.com/OocMe/OocMe/main/JS/tieba-json.js
+^http:\/\/c\.tieba\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized) url script-response-body https://raw.githubusercontent.com/OocMe/OocMe/main/JS/tieba-proto.js
 # > 百度
 ^https?:\/\/fcvbjbcebos.baidu.com\/.+.mp4 url reject
 ^https?:\/\/cover.baidu.com\/cover\/page\/dspSwitchAds\/ url reject
@@ -320,21 +320,21 @@ https://api.m.jd.com/client.action\?functionId=lite_advertising url reject
 # > 什么值得买Wiki(618晒物活动推广，将来可能不是广告)
 ^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/wiki_related_modul url reject
 # > 什么值得买开屏广告
-^https?:\/\/app-api\.smzdm\.com\/util\/loading url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+^https?:\/\/app-api\.smzdm\.com\/util\/loading url script-response-body https://raw.githubusercontent.com/OocMe/OocMe/main/JS/smzdm_ads.js
 # > 什么值得买首页广告
-^https?:\/\/homepage-api\.smzdm\.com\/v3\/home url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+^https?:\/\/homepage-api\.smzdm\.com\/v3\/home url script-response-body https://raw.githubusercontent.com/OocMe/OocMe/main/JS/smzdm_ads.js
 # > 什么值得买好价广告
-^https?:\/\/haojia-api\.smzdm\.com\/home\/list url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+^https?:\/\/haojia-api\.smzdm\.com\/home\/list url script-response-body https://raw.githubusercontent.com/OocMe/OocMe/main/JS/smzdm_ads.js
 # > 什么值得买好价详情页广告
-^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+^https?:\/\/haojia\.m\.smzdm\.com\/detail_modul\/article_releated_modul url script-response-body https://raw.githubusercontent.com/OocMe/OocMe/main/JS/smzdm_ads.js
 # > 什么值得买百科广告
-^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+^https?:\/\/baike-api\.smzdm\.com\/home_v3\/list url script-response-body https://raw.githubusercontent.com/OocMe/OocMe/main/JS/smzdm_ads.js
 # > 什么值得买搜索结果广告
-^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10 url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+^https?:\/\/s-api\.smzdm\.com\/sou\/list_v10 url script-response-body https://raw.githubusercontent.com/OocMe/OocMe/main/JS/smzdm_ads.js
 # > 什么值得买搜索标签广告
-^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+^https?:\/\/s-api\.smzdm\.com\/sou\/filter\/tags\/hot_tags url script-response-body https://raw.githubusercontent.com/OocMe/OocMe/main/JS/smzdm_ads.js
 # > 什么值得买值会员权益中心banner广告
-^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
+^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner url script-response-body https://raw.githubusercontent.com/OocMe/OocMe/main/JS/smzdm_ads.js
 # >> 新浪微博
 ^https?:\/\/adimg\.uve\.weibo\.com\/public\/files\/image url reject
 ^https?:\/\/sdkapp\.uve\.weibo\.com\/interface\/sdk\/(actionad|sdkad)\.php url reject-200
